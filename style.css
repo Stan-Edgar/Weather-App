@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    row-gap: 50px;
+}
+
+#para {
+    font-size: 2rem;
+    line-height: 150%;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.warm {
+    background-color: rgb(255, 192, 75);
+}
+
+.cold {
+    background-color: rgb(51, 51, 221);
+}
